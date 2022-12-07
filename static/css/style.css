@@ -1,0 +1,132 @@
+/* common **********/
+
+html,
+body {
+  height: 100%;
+}
+
+.content {
+  max-width: 600px;
+  height: 100%;
+  margin: 0 auto;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+/* Post
+*************/
+/* form {
+  flex-direction: column;
+  display: flex;
+  padding: 10px;
+} */
+.post_form {
+  padding: 20px 40px;
+  border: 1px solid #ccc;
+}
+.post_form input {
+  width: 70%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+}
+.post_form textarea {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.posts ul {
+  padding: 0;
+}
+section.posts {
+  background-color: coral;
+  opacity: 0.8;
+}
+section.posts {
+  background-color: coral;
+  opacity: 0.8;
+}
+
+.posts li {
+  position: relative;
+  display: flex;
+  border: 1px solid #ccc;
+  padding: 20px 40px;
+  list-style: none;
+}
+
+.posts li .menu_icon {
+  width: 20px;
+  position: absolute;
+  right: 30px;
+  top: 18px;
+}
+
+.posts li .menu {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  border: 1px solid #ccc;
+  background-color: #ccc;
+  padding: 10px 15px;
+  font-size: 13px;
+  border-radius: 3px;
+}
+
+.posts li .menu a {
+  text-decoration: none;
+}
+
+.posts li .logo {
+  flex-basis: 15%;
+}
+.posts li .logo img {
+  width: 60%;
+}
+.posts li .name_body {
+  flex-basis: 85%;
+}
+
+.posts li .name_body .name {
+  font-weight: bold;
+}
+
+.posts li .name_body .datetime {
+  color: gray;
+}
+
+@media screen and (max-width: 500px) {
+  .posts li .name_body .name {
+    font-size: 20px;
+  }
+}
+.header img{
+  width:55px;
+  border-radius:50% ;
+  margin-right:20px;
+}
+.header {
+  display: flex;
+  border: 1px solid #ccc;
+}
+.post-img{
+  width: 80%;
+  border-radius: 10px;
+}
+.like{
+  display: flex;
+  align-items: center;
+}
+.like img{
+  width: 20px;
+  margin-right: 10px;
+}
+html{
+  background-image:url(/static/img/twitter-bck.png);
+  background-size: cover;
+  background-repeat:repeat-y;
+}
