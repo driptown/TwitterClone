@@ -42,11 +42,11 @@ body {
   padding: 0;
 }
 section.posts {
-  background-color: coral;
+  background-color:white;
   opacity: 0.8;
 }
 section.posts {
-  background-color: coral;
+  background-color:white;
   opacity: 0.8;
 }
 
@@ -126,7 +126,7 @@ section.posts {
   margin-right: 10px;
 }
 html{
-  background-image:url(/static/img/twitter-bck.png);
+  background-image:url(/static/img/);
   background-size: cover;
   background-repeat:repeat-y;
 }
